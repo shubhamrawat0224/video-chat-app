@@ -1,0 +1,21 @@
+/* video{
+    width: 550px;
+    justify-content: center;
+    @media xs{
+        width: 300px;
+    }
+}
+
+.gridContainer{
+   justify-content: center;
+   margin-left: 100px;
+    @media xs {
+        flex-direction: column;
+    }
+}
+
+Paper{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px;
+} */

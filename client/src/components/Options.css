@@ -1,0 +1,36 @@
+.root{
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContainer{
+    width: 100%;
+    @media xs {
+        flex-direction: column;
+    }
+}
+
+.container{
+    width: 800px;
+    margin: 35px 0;
+    padding: 0;
+    @media xs {
+        width: 80%
+    }
+}
+
+.margin{
+    margin-top: 20px;
+}
+
+.padding{
+    padding: 20px;
+}
+.paper{
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+button{
+    margin: 30px;
+    margin-top: 10px;
+}
